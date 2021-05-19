@@ -3,7 +3,7 @@ from hepdata_lib import Submission, Table, Variable
 
 def singleLQs(submission):
     #Prepare
-    table = Table("Acceptance times efficiency for single leptoquarks")
+    table = Table("Acceptance times efficiency for single scalar leptoquarks")
     table.location = ""
     table.description = "Single scalar leptoquark (LQs) total selection efficiency, accounting for both the decay branching fraction and the event selection, for events that pass the signal region requirements and any of the top quark or b jet categories defined in the search."
     data = np.loadtxt("input/singleLQs.txt", skiprows=2)
