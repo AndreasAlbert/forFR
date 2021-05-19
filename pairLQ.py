@@ -3,7 +3,7 @@ from hepdata_lib import Submission, Table, Variable
 
 def pairLQ(submission):
     #Prepare
-    table = Table("pair LQ")
+    table = Table("Acceptance times efficiency for leptoquark pairs")
     table.location = ""
     table.description = "Pair leptoquark (LQ) total selection efficiency, accounting for both the decay branching fraction and the event selection, for events that pass the signal region requirements and any of the top quark or b jet categories defined in the search."
     data = np.loadtxt("input/pairLQ.txt", skiprows=2)
